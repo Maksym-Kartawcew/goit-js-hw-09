@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -16,3 +17,50 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button {
+  padding: 15px;
+}
+
+
+.timer {
+  display: flex;
+  margin-top: 20px;
+  
+
+}
+
+.timer-number {
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+
+.timer-button {
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.timer-button:disabled {
+  background-color: #f2f2f2;
+  color: #ccc;
+  cursor: default;
+}
+
+
